@@ -18,7 +18,6 @@ func main() {
 	h := db.Init(dbUrl)
 
 	books.RegisterRoutes(r, h)
-	// register more routes here
 
 	r.Run(port)
 }
